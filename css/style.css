@@ -28,7 +28,7 @@ h1, h2,h3, a, button{
     color: #fff;
 }
 .container {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -125,6 +125,9 @@ section{
     max-width: 1100px;
     color: #000;
 }
+.text_img img{
+    height: 100%;
+}
 h3{
     color: #000;
     font-size: 1.7em;
@@ -168,7 +171,7 @@ h3{
 .ship_container{
     position: relative;
 }
-.red {
+/* .red {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -176,7 +179,7 @@ h3{
     border-radius: 50%;
     z-index: 1;
     position: absolute;
-}
+} */
 .db{
     position: absolute;
     width: 50px;
@@ -188,7 +191,7 @@ h3{
 }
 .r0 {
     top: 150px;
-    right: 475px;
+    right: 375px;
 }
 .r0:hover .info_cart{
     display: block;
@@ -196,7 +199,7 @@ h3{
 }
 .r1 {
     top: 306px;
-    right: 565px;
+    right: 465px;
 }
 .r1:hover .info_cart {
     display: block;
@@ -252,7 +255,7 @@ h3{
 }
 .r8 {
     top: 313px;
-    right: 130px;
+    right: 30px;
 }
 .r8:hover .info_cart {
     display: block;
@@ -260,7 +263,6 @@ h3{
 }
 .info_cart{
     width: 200px;
-    height: 260px;
     border: #8cd193 1px solid;
     border-radius: 7px;
     padding: 15px 0;
@@ -271,6 +273,13 @@ h3{
     right: 35px;
     opacity: 0;
     display: none;
+}
+.info_cart.reverse{
+    top: 0;
+    left: 30px;
+}
+.info_cart.top{
+    top: -100px;
 }
 .info_cart p{
     padding:5px 10px;
@@ -286,7 +295,7 @@ h4{
 }
 .r9 {
     bottom: 96px;
-    right: 453px;
+    right: 353px;
 }
 .r9:hover .info_cart {
     display: block;
