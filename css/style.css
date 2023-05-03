@@ -191,15 +191,15 @@ h3{
 }
 .r0 {
     top: 150px;
-    right: 375px;
+    right: 440px;
 }
 .r0:hover .info_cart{
     display: block;
     animation: ani 1s forwards;   
 }
 .r1 {
-    top: 306px;
-    right: 465px;
+    top: 290px;
+    right: 530px;
 }
 .r1:hover .info_cart {
     display: block;
@@ -207,7 +207,7 @@ h3{
 }
 .r2 {
     bottom: 89px;
-    left: 390px;
+    left: 355px;
 }
 .r2:hover .info_cart {
     display: block;
@@ -215,7 +215,7 @@ h3{
 }
 .r3 {
     bottom:0px;
-    left: 362px;
+    left: 332px;
 }
 .r3:hover .info_cart {
     display: block;
@@ -254,8 +254,8 @@ h3{
     animation: ani 1s forwards;
 }
 .r8 {
-    top: 313px;
-    right: 30px;
+    top: 290px;
+    right:130px;
 }
 .r8:hover .info_cart {
     display: block;
@@ -295,7 +295,7 @@ h4{
 }
 .r9 {
     bottom: 96px;
-    right: 353px;
+    right: 413px;
 }
 .r9:hover .info_cart {
     display: block;
